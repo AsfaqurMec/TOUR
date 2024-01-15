@@ -1,0 +1,331 @@
+ @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Mulish;
+}
+.common-btn {
+    color: #ffffff;
+    background-color: #FF5400;
+    width: 174px;
+    height: 52px;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    animation: appear ease 1s;
+    width: 80%;
+   margin: 0 auto;
+   padding: 20px 0;
+}
+.header-brand {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+.header-brand img {
+    width: 45px;
+}
+.header-brand h2 {
+    color: #131318;
+font-family: Mulish;
+font-size: 36px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+
+@keyframes appear {
+    0% {
+        transform: translateY(-100px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+header ul {
+    display: flex;
+    gap: 2rem;
+    color: #424247;
+text-align: center;
+font-family: Mulish;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+header li {
+    list-style: none;
+}
+nav .icon {
+    display: none;
+}
+header span {
+    color: #FF5400;
+}
+
+.main-section {
+    width: 75%;
+    margin: 50px auto;
+}
+.banner {
+    
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    
+    border-radius: 16px;
+    background: url("Images/Group\ 13\ \(1\)\ \(1\).png");
+    
+}
+.banner-section {
+ width: 100%; 
+ height: 100%;  
+ border-radius: 16px;
+background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%);
+display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.banner-detail {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+
+}
+.banner-detail h1 {
+    color: #FFF;
+font-family: Mulish;
+font-size: 64px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+margin-bottom: 24px;
+}
+.banner-detail p {
+    color: #FFF;
+text-align: center;
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+margin-bottom: 48px;
+}
+.banner-detail .banner-order {
+    display: inline-flex;
+padding: 16px;
+align-items: flex-start;
+gap: 24px;
+border-radius: 8px;
+background: rgba(255, 255, 255, 0.30);
+}
+.banner-detail .banner-order input,button,select {
+    width: 174px;
+height: 52px;
+flex-shrink: 0;
+border-radius: 8px;
+background: #FFF;
+border: none;
+padding: 10px;
+color: rgba(19, 19, 24, 0.50);
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+/* teams styles */
+.popular {
+    display: flex;
+    gap: 50px;
+margin: 50px auto;
+}
+.popular-container {
+width: 50%;   
+text-align: left;
+   
+}
+.popular-img-container {
+    width: 50%;
+}
+
+.popular-img-container img {
+    width: 100%;
+}
+.popular-title,.feature-title {
+    color: #131318;
+    
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 24px;
+}
+.popular-container,.feature-detail p, li {
+    color: rgba(19, 19, 24, 0.70);
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+margin: 16px 0;
+}
+.popular-container ul {
+    margin-left: 20px;
+}
+.feature-detail {
+    width: 55%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.feature-card {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.feature-card div {
+    width: 49%;
+height: 284px;
+padding: 32px;
+border-radius: 16px;
+}
+.card1 {
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);  
+}
+.card2 {
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+.card3 {
+    
+border: 1px solid rgba(233, 68, 68, 0.20);
+background: rgba(233, 68, 68, 0.05);
+}
+.card-title {
+    color: #131318;
+
+font-family: Mulish;
+font-size: 24px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+margin: 24px 0;
+}
+.card-detail {
+    color: #5A5A5D;
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+}
+.newsletter {
+   display: flex; 
+   gap: 30px;
+   margin: 50px auto;
+}
+.newsletter-form {
+    width: 40%;
+    border: 2px solid #FF5400;
+    padding: 40px;
+    border-radius: 8px;
+}
+.newsletter-form h3 {
+    color: #131318;
+font-family: Mulish;
+font-size: 24px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+margin-bottom: 16px;
+}
+.newsletter-form p {
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */ 
+    padding-bottom: 24px;
+    border-bottom: 2px solid rgba(19, 19, 24, 0.10);
+}
+.newsletter-form input {
+    width: 100%;
+    margin: 16px 0;
+    border-radius: 8px;
+    
+    background: rgba(19, 19, 24, 0.05);
+border: none;
+padding: 10px;
+color: rgba(19, 19, 24, 0.50);
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.newsletter-btn {
+    width: 100%;
+}
+.newsletter-image img {
+    width: 100%;
+}
+/* responsive area */
+@media  screen and (max-width: 600px) {
+    header ul {
+         display: none;
+        }
+        nav .icon {
+            display: block;
+        }
+        .header-brand h2 {
+           
+            font-size: 21.543px;
+        
+        }
+        .header-brand img {
+            width: 28px;
+        }
+        .banner-detail .banner-order,.newsletter {
+         flex-direction: column;
+        align-items: center;
+        gap: 16px;
+        
+        }
+        .banner-detail .banner-order input,button,select {
+            width: 100%;
+        height: 52px;
+        
+        }
+        .banner-detail h1 {
+            font-size: 22px;
+            margin-bottom: 15px;
+        }
+        .banner-detail p {
+            font-size: 14px;
+            margin-bottom: 30px;
+        }
+        .popular {
+            flex-direction: column;
+        }
+        .popular-container,.feature-detail,.feature-card div {
+            width: 100%;  
+            margin-bottom: 10px;
+            }
+            .popular-img-container, .newsletter-form, .newsletter-image  {
+                width: 100%;
+            }
+
+    }
