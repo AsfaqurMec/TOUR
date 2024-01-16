@@ -159,16 +159,13 @@ header span {
 }
 .banner-detail .banner-order {
     display: flex;
-    padding: 16px;
+    padding: 12px;
     justify-content: space-between;
     align-items: center;
     
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.30);
     margin: 0 auto;
-}
-.banner-detail .banner-order {
-    width: 100%;
 }
 .banner-detail .banner-order input,button,select {
     width: 22%;
@@ -185,6 +182,10 @@ header span {
     font-weight: 400;
     line-height: normal;
 }
+option {
+    color: rgba(19, 19, 24, 0.50); 
+}
+
 /* popular area */
 .popular {
     display: flex;
@@ -611,10 +612,6 @@ line-height: normal;
         width: 80%;
         margin: 0 auto;
         text-align: center;
-    }
-    
-    .banner-detail .banner-order input,button,select {
-        width: 21%;   
     }
     .feature-card {
         gap: 15px;
