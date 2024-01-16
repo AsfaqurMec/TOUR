@@ -160,7 +160,7 @@ header span {
 .banner-detail .banner-order {
     display: flex;
     padding: 16px;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     
     border-radius: 8px;
@@ -612,11 +612,7 @@ line-height: normal;
         margin: 0 auto;
         text-align: center;
     }
-    .banner-detail .banner-order {
-        
-        justify-content: space-evenly;
-        
-    }
+    
     .banner-detail .banner-order input,button,select {
         width: 21%;   
     }
