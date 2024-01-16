@@ -585,7 +585,7 @@ footer {
     display: flex;
     justify-content: center;
     margin: 16px 0;
-    gap: 15px;
+    gap: 30px;
     font-size: 2rem;
 }
 .right {
