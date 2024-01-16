@@ -1,9 +1,12 @@
  @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: Mulish;
+
 }
   /* common section */
 .common-heading-section {
@@ -43,6 +46,13 @@
     background-color: #FF5400;
     width: 174px;
     height: 52px;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
 }
 /* header area */
 nav {
@@ -381,8 +391,21 @@ text-align: left;
     gap: 10px;
 }
 .deals-btn {
-    width: 15%;
+    width: 20%;
     margin: 30px auto;  
+}
+.deals-common-btn {
+    color: #ffffff;
+    background-color: #FF5400;
+    width: 180px;
+    height: 52px;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
 }
 /* video area */
 .video {
@@ -424,21 +447,22 @@ text-align: left;
 }
 .guides {
     display: grid;
-    grid-template-columns: repeat(3,31%);
-    gap: 40px;
+    grid-template-columns: repeat(3,33%);
+    gap: 20px;
 }
 .card-1, .card-2, .card-3 {
     text-align: center;
-    padding: 10px;
+    padding: 15px;
     border-radius: 16px;
    background-color: #efeeee;
+   
 }
 .card-1 img {
     width: 100%;
     height: 80%;
     object-fit: cover;
     border-radius: 16px;
-    margin-bottom: 16px;
+    margin-bottom: 12px;
 }
 .card-1:hover img {
     transform: scale(1.05);
@@ -452,7 +476,7 @@ text-align: left;
 .newsletter-form {
     width: 40%;
     border: 2px solid #FF5400;
-    padding: 40px;
+    padding: 30px;
     border-radius: 8px;
 }
 .newsletter-form h3 {
@@ -543,6 +567,12 @@ footer {
     gap: 1rem;
     align-items: center;
     margin-bottom: 16px;
+    color:  #131318;
+    font-family: Mulish;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
 }
 .footer-brand img {
     width: 45px;
@@ -555,10 +585,17 @@ footer {
     justify-content: center;
     margin: 16px 0;
     gap: 15px;
+    font-size: 2rem;
 }
 .right {
     width: 100%;
     padding-top: 15px;
+    color: #131318;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
     border-top: 2px solid rgba(19, 19, 24, 0.10);
 }
 
@@ -593,34 +630,21 @@ footer {
         border-radius: 16px;
     }
     .deals-section-1, .deals-section-2 {
-        padding:  25px;
-         
+        padding:  25px;         
     }
     .video {
-        
-        gap: 20px;
-        
+        gap: 20px;   
     }
     .popular-video-container {
-      
-        height: 450px; 
+         height: 450px; 
     }
     .popular-video-container video {
-       
-        height: 450px;
-       
+        height: 450px;  
     }
     .newsletter {
-        
-        gap: 20px;
-       
+        gap: 20px; 
      }
-     .newsletter-form {
-         width: 45%;
-         border: 2px solid #FF5400;
-         padding: 10px;
-         border-radius: 8px;
-     }
+     
 }
 
      /* for mobile device */
@@ -649,6 +673,9 @@ footer {
         .banner-detail .banner-order input,button,select {
             width: 100%;
             height: 52px;
+        }
+        .banner-detail .banner-order .common-btn {
+            width: 100%;
         }
         .banner-detail h1 {
             font-size: 22px;
@@ -760,5 +787,8 @@ footer {
             }
             .footer-section {
                 width: 80%;
+            }
+            .footer-brand {
+                font-size: 22px;    
             }
     }
